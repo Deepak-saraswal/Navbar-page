@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(7, 2, 2, 0.984);
+  }
+  .logo-container {
+    display: inline-block; /* Ensures the logo is in the same line as other elements */
+  }
+  
+  .logo {
+    height: 50px; /* Adjust the height of the logo as needed */
+    margin: 10px; /* Adjust the margin around the logo as needed */
+  }
+  li {
+    float: left;
+  }
+
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: red;
+  }
+  
+  .dropdown {
+    display: inline-block;
+  }
+  
+  
+  
+
+
+
